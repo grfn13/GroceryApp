@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:groceryapp/config/app_router.dart';
 import 'package:groceryapp/screens/screens.dart';
 
+import 'config/theme.dart';
+
 
 
 void main() {
@@ -13,9 +15,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Grocery App',
-      theme: ThemeData(
-        primarySwatch: Colors.lightBlue,
-      ),
+      theme: theme(),
+
       onGenerateRoute: AppRouter.onGenerateRoute,
       initialRoute: HomeScreen.routeName,
     );
