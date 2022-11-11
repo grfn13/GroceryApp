@@ -39,7 +39,7 @@ class CatalogScreen extends StatelessWidget {
               widthFactor: 2.2,
         ),
           );
-      }
+      },
      ),
       
     );

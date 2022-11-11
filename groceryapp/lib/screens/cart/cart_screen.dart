@@ -185,7 +185,8 @@ class CartScreen extends StatelessWidget {
                 ],
               ),
             );
-          } else {return Text('Something Went Wrong');
+          } else {
+            return Text('Something Went Wrong');
           }
         },
       ),
